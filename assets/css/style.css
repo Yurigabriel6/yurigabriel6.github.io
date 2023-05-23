@@ -5,6 +5,9 @@
 }
 
 body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     color: #ffffff;
@@ -106,6 +109,7 @@ main section button {
     font-size: 18px;
     background-color: #595979;
     color: #ffffff;
+    cursor: pointer;
     transition: border-radius .7s, background-color .7s, opacity .7s, color .7s;
 }
 
@@ -118,28 +122,12 @@ main section button:hover {
 main section button a {
     text-decoration: none;
     color: #ffffff;
+    cursor: pointer;
     transition: color .7s;
 }
 
 main section button a:hover {
     color: #343434;
-}
-
-footer {
-    position: absolute;
-    width: 100vw;
-    text-align: center;
-    font-weight: bold;
-    bottom: 0;
-    padding: 8px;
-    background-color: #363636;
-    border-radius: 10px 10px 0 0;
-    color: #ffffff;
-    transition: border-radius .7s;
-}
-
-footer:hover {
-    border-radius: 15px 15px 0 0;
 }
 
 @keyframes spans {    
@@ -164,10 +152,6 @@ footer:hover {
 @media screen and (max-width: 640px) {
     main section p {
         font-size: 5vw;
-    }
-
-    footer {
-        font-size: 2.63vw;
     }
 
     header nav {
