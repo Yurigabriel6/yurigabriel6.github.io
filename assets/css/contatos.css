@@ -192,3 +192,154 @@ header nav a:active {
 .sla2:hover > :not(:hover) {
     filter: blur(5px);
 }
+
+@media screen and (max-width: 640px) {
+    body {
+        overflow-y: auto;
+    }
+
+    header nav {
+        font-size: 2.63vw;
+    }
+
+    .servidor {
+        margin-right: 0px;
+        padding: 7px 10px;
+        width: max-content;
+    }
+
+    .myimg {
+        margin-left: 0px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .explicando {
+        width: 400px;
+    }
+
+    .formasdecontatos {
+        width: 400px;
+    }
+
+    .faceimg {
+        width: 400px;
+    }
+
+    .instaimg {
+        width: 400px;
+    }
+
+    .idiscord {
+        width: 400px;
+    }
+
+    .faceclick {
+        font-size: 30px;
+    }
+
+    .instaclick {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .explicando {
+        width: 300px;
+    }
+
+    .formasdecontatos {
+        width: 300px;
+    }
+
+    .faceimg {
+        width: 300px;
+    }
+
+    .instaimg {
+        width: 300px;
+    }
+
+    .idiscord {
+        width: 300px;
+    }
+
+    .faceclick {
+        font-size: 30px;
+    }
+
+    .instaclick {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    body {
+        overflow-y: auto;
+    }
+
+    .myimg {
+        margin-left: 0px;
+        margin-right: 10px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 291px) {
+    header nav {
+        display: none;
+    }
+
+    .myimg {
+        margin-right: 63%;
+    }
+}
+
+@media screen and (max-width: 268px) {
+    .servidor {
+        display: none;
+    }
+
+    .myimg {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .explicando {
+        width: 250px;
+    }
+
+    .formasdecontatos {
+        width: 250px;
+    }
+
+    .faceimg {
+        width: 250px;
+    }
+
+    .instaimg {
+        width: 250px;
+    }
+
+    .myimg {
+        margin-right: 130px;
+    }
+
+    .discord {
+        width: 250px;
+    }
+
+    .idiscord {
+        width: 250px;
+    }
+
+    .faceclick {
+        font-size: 30px;
+    }
+
+    .instaclick {
+        font-size: 30px;
+    }
+}

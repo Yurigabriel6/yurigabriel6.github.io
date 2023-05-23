@@ -199,3 +199,23 @@ article > p {
         border-radius: 0px;
     }
 }
+
+@media screen and (max-width: 291px) {
+    header nav {
+        display: none;
+    }
+
+    .myimg {
+        margin-right: 63%;
+    }
+}
+
+@media screen and (max-width: 268px) {
+    .servidor {
+        display: none;
+    }
+
+    .myimg {
+        margin: auto;
+    }
+}
