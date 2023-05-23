@@ -122,3 +122,143 @@ header nav a:active {
     width: max-content;
     margin: auto;
 }
+
+@media screen and (max-width: 1024px)  {
+    .yuridiv, .pddiv {
+        display: block;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 912px)  {
+    .yuridiv, .pddiv {
+        display: block;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 820px)  {
+    .yuridiv, .pddiv {
+        display: block;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 712px) {
+    .yuridiv, .pddiv {
+        display: block;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        overflow-y: auto;
+    }
+
+    header nav {
+        font-size: 2.63vw;
+    }
+
+    .servidor {
+        margin-right: 0px;
+        padding: 7px 10px;
+        width: max-content;
+    }
+
+    .myimg {
+        margin-left: 0px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .yuridiv, .pddiv {
+        display: block;
+        margin-left: 0px;
+    }
+
+    .yurispan > h1, .pdspan > h1 {
+        border-radius: 0px 0px 10px 0px;
+    }
+
+    .pddiv > img, .yuridiv > img {
+        width: 414px;
+        border-radius: 0px;
+    }
+
+    .centro {
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 393px)  {
+    .pddiv > img, .yuridiv > img {
+        width: 393px;
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 390px)  {
+    .pddiv > img, .yuridiv > img {
+        width: 390px;
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 375px)  {
+    .pddiv > img, .yuridiv > img {
+        width: 375px;
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .pddiv > img, .yuridiv > img {
+        width: 360px;
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    body {
+        overflow-y: auto;
+    }
+
+    .myimg {
+        margin-left: 0px;
+        margin-right: 10px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 291px) {
+    header nav {
+        display: none;
+    }
+
+    .myimg {
+        margin-right: 63%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .myimg {
+        margin-right: 130px;
+    }
+
+    .pddiv > img, .yuridiv > img {
+        width: 280px;
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 268px) {
+    .servidor {
+        display: none;
+    }
+
+    .myimg {
+        margin: auto;
+    }
+}
