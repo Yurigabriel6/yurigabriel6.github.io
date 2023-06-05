@@ -5,7 +5,6 @@
 }
 
 body {
-    padding: 91px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,8 +14,6 @@ body {
 }
 
 header {
-    position: fixed;
-    top: 0;
     display: flex;
     background-color: #363636;
     width: 100%;
