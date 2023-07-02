@@ -11,6 +11,8 @@ body {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     color: #ffffff;
     background-image: linear-gradient(45deg, #000000, #131313, #1d1d1d, #252525, #2d2d2d);
+    overflow: overlay;
+    padding-bottom: 50px;
 }
 
 header {
@@ -103,6 +105,10 @@ article > p {
     margin-bottom: 50px;
 }
 
+.sobreotrabalho {
+    margin-top: 50px;
+}
+
 .sobremim > p > a {
     color: white;
     background-image: linear-gradient(45deg, red, blue);
@@ -117,6 +123,16 @@ article > p {
 
 .sobremim > p > a:hover {
     background-size: 100% 2px;
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(45deg, orange, red, cyan, blue);
+    border-radius: 50px;
 }
 
 @media screen and (max-width: 640px) {

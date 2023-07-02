@@ -90,13 +90,13 @@ main section {
     text-align: center;
 }
 
-main section p {
+main section .psec1 {
     color: #ffe44b;
     font-weight: bold;
     font-size: 1.5em;
 }
 
-.spancolor {
+.spancolor, .spancolor2 {
     color: #ff0000;
     animation: spans 4s infinite;
     background-image: linear-gradient(45deg, red, rgb(255, 25, 25), rgb(255, 77, 77), rgb(115, 115, 255), rgb(73, 73, 255), rgb(0, 0, 255));
