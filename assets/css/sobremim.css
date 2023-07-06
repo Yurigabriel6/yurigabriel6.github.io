@@ -13,6 +13,7 @@ body {
     background-image: linear-gradient(45deg, #000000, #131313, #1d1d1d, #252525, #2d2d2d);
     overflow: overlay;
     padding-bottom: 50px;
+    overflow-y: hidden;
 }
 
 header {
@@ -84,7 +85,7 @@ header nav a:active {
 section {
     font-family: Arial, 'Inter', Helvetica, sans-serif;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 40px;
     padding: 10px;
     border-radius: 10px;
     width: 700px;
@@ -106,7 +107,7 @@ article > p {
 }
 
 .sobreotrabalho {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .sobremim > p > a {
