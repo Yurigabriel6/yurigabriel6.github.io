@@ -11,6 +11,7 @@ body {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     color: #ffffff;
     background-image: linear-gradient(45deg, #000000, #131313, #1d1d1d, #252525, #2d2d2d);
+    overflow: overlay;
     padding-bottom: 100px;
 }
 
@@ -191,6 +192,17 @@ header nav a:active {
 
 .sla2:hover > :not(:hover) {
     filter: blur(5px);
+}
+
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(45deg, orange, red, cyan, blue);
+    border-radius: 50px;
 }
 
 @media screen and (max-width: 640px) {

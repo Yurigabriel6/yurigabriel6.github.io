@@ -97,14 +97,21 @@ main section .psec1 {
 }
 
 .spancolor, .spancolor2 {
+    position: relative;
     color: #ff0000;
-    animation: spans 4s infinite;
+    animation: spans 4s infinite;;
+}
+
+.spanbar1, .spanbar2 {
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    filter: blur(1px);
     background-image: linear-gradient(45deg, red, rgb(255, 25, 25), rgb(255, 77, 77), rgb(115, 115, 255), rgb(73, 73, 255), rgb(0, 0, 255));
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    background-position: center bottom;
-    transition: background-size .5s;
-    animation: line 3s infinite;
+    border-radius: 50px;
+    height: 2.5px;
+    width: 0%;
+    animation: line 5s infinite;
 }
 
 main section button {
@@ -159,18 +166,21 @@ main section button a:hover {
 
 @keyframes line {
     10% {
-        background-size: 0% 2px;
+        background-size: 1% 2.5px;
+        width: 0%;
     }
-    20% {
-        background-size: 100% 2px;
+    50% {
+        background-size: 100% 2.5px;
+        width: 99%;
     }
     100% {
-        background-size: 0% 2px;
+        background-size: 1% 2.5px;
+        width: 0%;
     }
 }
 
 @media screen and (max-width: 640px) {
-    main section p {
+    main section .psec1 {
         font-size: 5vw;
     }
 
